@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-pip install prophet
+pip install fbprophet
 from prophet import Prophet
 import matplotlib.pyplot as plt
 
