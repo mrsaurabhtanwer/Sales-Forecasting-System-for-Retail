@@ -1,4 +1,6 @@
 pip install prophet
+import prophet
+
 
 import streamlit as st
 import pandas as pd
