@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from prophet import Prophet
 import matplotlib.pyplot as plt
 
 # Try importing Prophet
