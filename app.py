@@ -3,10 +3,9 @@ import pandas as pd
 
 # Try importing Prophet
 try:
-    from prophet import Prophet
+     from prophet import Prophet
 except ImportError:
-    from fbprophet import Prophet
-
+     st.error("Prophet library is not installed. Please install it using 'pip install prophet'.")
 
 st.title("Retail Sales Forecasting App")
 
