@@ -1,7 +1,9 @@
 import streamlit as st
 import pandas as pd
+pip install prophet
 from prophet import Prophet
 import matplotlib.pyplot as plt
+
 
 st.title("Retail Sales Forecasting App")
 
