@@ -1,4 +1,3 @@
-pip install prophet
 import prophet
 
 
