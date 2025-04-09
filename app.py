@@ -1,8 +1,13 @@
 import streamlit as st
 import pandas as pd
-pip install fbprophet
 from prophet import Prophet
 import matplotlib.pyplot as plt
+
+# Try importing Prophet
+try:
+    from prophet import Prophet
+except ImportError:
+    from fbprophet import Prophet
 
 
 st.title("Retail Sales Forecasting App")
